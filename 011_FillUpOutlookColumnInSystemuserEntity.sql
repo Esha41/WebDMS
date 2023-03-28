@@ -1,0 +1,1 @@
+update SystemUsers  set [OutlookEmail] = Email

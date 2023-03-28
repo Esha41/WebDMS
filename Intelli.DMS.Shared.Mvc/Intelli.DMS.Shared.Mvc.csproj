@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
+    <PackageReference Include="Microsoft.Extensions.Localization.Abstractions" Version="5.0.3" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.12.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Intelli.DMS.Domain\Intelli.DMS.Domain.csproj" />
+    <ProjectReference Include="..\Intelli.DMS.Dto\Intelli.DMS.Shared.csproj" />
+  </ItemGroup>
+
+</Project>
