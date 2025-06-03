@@ -1,0 +1,133 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{26D42C51-B9AF-497A-B8E8-0A8EA415F6E3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{93A0B144-FDFC-4C48-8838-B4658DF4A168}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{FD8FDAE8-9940-432E-B4B7-435D04207BD5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{86E775C8-725A-4E7E-B9ED-A10520370897}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Intelli.DMS.EventBus.RabbitMQ", "Intelli.DMS.EventBus.RabbitMQ\Intelli.DMS.EventBus.RabbitMQ.csproj", "{2ACC4515-69F7-47B9-B578-A170CF028E50}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Intelli.DMS.Domain", "Intelli.DMS.Domain\Intelli.DMS.Domain.csproj", "{69CCB0EE-1AFF-43F1-9DD3-E75F6062372C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Intelli.DMS.Api", "Intelli.DMS.Api\Intelli.DMS.Api.csproj", "{847281E4-963F-47E9-9452-342DBFD4111D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Intelli.DMS.Shared.Mvc", "Intelli.DMS.Shared.Mvc\Intelli.DMS.Shared.Mvc.csproj", "{0466A046-A3F5-42BF-BEBB-24F14817BF96}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Intelli.DMS.Shared", "Intelli.DMS.Dto\Intelli.DMS.Shared.csproj", "{DDD7866C-57C6-40B9-8C50-1F3F1068E80D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EFC4D6D4-702D-4C83-9F61-4F480EB602A8}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Migrations", "Migrations", "{4FBFED83-081A-4FCC-807B-CE52FF6CBBBA}"
+	ProjectSection(SolutionItems) = preProject
+		Migrations\001-Initial_Migration.sql = Migrations\001-Initial_Migration.sql
+		002_Alter_BatchesDataTobeDeleted_View.sql = 002_Alter_BatchesDataTobeDeleted_View.sql
+		003_Alter_ClientsDataToBeDeleted_View.sql = 003_Alter_ClientsDataToBeDeleted_View.sql
+		004_Change_AFM.sql = 004_Change_AFM.sql
+		005_Change_UserPerCompany_Column_In_Company_Entity.sql = 005_Change_UserPerCompany_Column_In_Company_Entity.sql
+		006_AlertClientView.sql = 006_AlertClientView.sql
+		007_ChangeAllPasswordInCompanyEntity.sql = 007_ChangeAllPasswordInCompanyEntity.sql
+		008_Add Active Directory Domain Name Column In Company Entity.sql = 008_Add Active Directory Domain Name Column In Company Entity.sql
+		009_Change Afm Column to Nvarchar_9.sql = 009_Change Afm Column to Nvarchar_9.sql
+		010_AddColumnsInSystemUserEntity.sql = 010_AddColumnsInSystemUserEntity.sql
+		011_FillUpOutlookColumnInSystemuserEntity.sql = 011_FillUpOutlookColumnInSystemuserEntity.sql
+		012_AlterSystemUserview.sql = 012_AlterSystemUserview.sql
+		013_ChangeAfmCharacterLength.sql = 013_ChangeAfmCharacterLength.sql
+		014_AlterClientRepositoryViewAddExternalIdColumn.sql = 014_AlterClientRepositoryViewAddExternalIdColumn.sql
+		015_SeedDeleteDocumentScreenElement.sql = 015_SeedDeleteDocumentScreenElement.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Audit", "Audit", "{DFC4DF9E-9A9D-44A0-B1CC-58BBAB4DD235}"
+	ProjectSection(SolutionItems) = preProject
+		Migrations\Audit\001-Initial-Migration.sql = Migrations\Audit\001-Initial-Migration.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WindowsServices", "WindowsServices", "{891F1A1D-CA99-4E6C-8CB4-7A0DB85530AC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Intelli.DMS.ApplyGDPR", "Intelli.DMS.ApplyGDPR\Intelli.DMS.ApplyGDPR.csproj", "{7D7D330D-33B7-43BB-9C72-08045D7A2855}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataMigrationConsoleApp", "DataMigrationConsoleApp", "{9987642F-51ED-4F70-B391-62F81B71D2EB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataMigration", "DataMigration\DataMigration.csproj", "{B783CA19-E29D-4699-9593-BCBD3DE54587}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OutLookAddIn", "OutLookAddIn", "{BF587619-6969-49C5-A797-B85424F2B05D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebDMS_OutlookAddIn", "WebDMS_OutlookAddIn\WebDMS_OutlookAddIn.csproj", "{5BBE78A1-72BF-48EF-BE35-B826025174FD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tool", "Tool", "{29584BEE-B872-409D-A086-7C96914C593A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DMS.PasswordEncryptionTool", "DMS.PasswordEncryptionTool\DMS.PasswordEncryptionTool.csproj", "{687C2D47-CF99-4222-8B83-7CBA0F76AD32}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2ACC4515-69F7-47B9-B578-A170CF028E50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ACC4515-69F7-47B9-B578-A170CF028E50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ACC4515-69F7-47B9-B578-A170CF028E50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ACC4515-69F7-47B9-B578-A170CF028E50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69CCB0EE-1AFF-43F1-9DD3-E75F6062372C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69CCB0EE-1AFF-43F1-9DD3-E75F6062372C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69CCB0EE-1AFF-43F1-9DD3-E75F6062372C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69CCB0EE-1AFF-43F1-9DD3-E75F6062372C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{847281E4-963F-47E9-9452-342DBFD4111D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{847281E4-963F-47E9-9452-342DBFD4111D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{847281E4-963F-47E9-9452-342DBFD4111D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{847281E4-963F-47E9-9452-342DBFD4111D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0466A046-A3F5-42BF-BEBB-24F14817BF96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0466A046-A3F5-42BF-BEBB-24F14817BF96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0466A046-A3F5-42BF-BEBB-24F14817BF96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0466A046-A3F5-42BF-BEBB-24F14817BF96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDD7866C-57C6-40B9-8C50-1F3F1068E80D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDD7866C-57C6-40B9-8C50-1F3F1068E80D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDD7866C-57C6-40B9-8C50-1F3F1068E80D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDD7866C-57C6-40B9-8C50-1F3F1068E80D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D7D330D-33B7-43BB-9C72-08045D7A2855}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D7D330D-33B7-43BB-9C72-08045D7A2855}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D7D330D-33B7-43BB-9C72-08045D7A2855}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D7D330D-33B7-43BB-9C72-08045D7A2855}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B783CA19-E29D-4699-9593-BCBD3DE54587}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B783CA19-E29D-4699-9593-BCBD3DE54587}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B783CA19-E29D-4699-9593-BCBD3DE54587}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B783CA19-E29D-4699-9593-BCBD3DE54587}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BBE78A1-72BF-48EF-BE35-B826025174FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BBE78A1-72BF-48EF-BE35-B826025174FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BBE78A1-72BF-48EF-BE35-B826025174FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BBE78A1-72BF-48EF-BE35-B826025174FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{687C2D47-CF99-4222-8B83-7CBA0F76AD32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{687C2D47-CF99-4222-8B83-7CBA0F76AD32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{687C2D47-CF99-4222-8B83-7CBA0F76AD32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{687C2D47-CF99-4222-8B83-7CBA0F76AD32}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2ACC4515-69F7-47B9-B578-A170CF028E50} = {93A0B144-FDFC-4C48-8838-B4658DF4A168}
+		{69CCB0EE-1AFF-43F1-9DD3-E75F6062372C} = {26D42C51-B9AF-497A-B8E8-0A8EA415F6E3}
+		{847281E4-963F-47E9-9452-342DBFD4111D} = {86E775C8-725A-4E7E-B9ED-A10520370897}
+		{0466A046-A3F5-42BF-BEBB-24F14817BF96} = {FD8FDAE8-9940-432E-B4B7-435D04207BD5}
+		{DDD7866C-57C6-40B9-8C50-1F3F1068E80D} = {FD8FDAE8-9940-432E-B4B7-435D04207BD5}
+		{4FBFED83-081A-4FCC-807B-CE52FF6CBBBA} = {EFC4D6D4-702D-4C83-9F61-4F480EB602A8}
+		{DFC4DF9E-9A9D-44A0-B1CC-58BBAB4DD235} = {4FBFED83-081A-4FCC-807B-CE52FF6CBBBA}
+		{7D7D330D-33B7-43BB-9C72-08045D7A2855} = {891F1A1D-CA99-4E6C-8CB4-7A0DB85530AC}
+		{B783CA19-E29D-4699-9593-BCBD3DE54587} = {9987642F-51ED-4F70-B391-62F81B71D2EB}
+		{5BBE78A1-72BF-48EF-BE35-B826025174FD} = {BF587619-6969-49C5-A797-B85424F2B05D}
+		{687C2D47-CF99-4222-8B83-7CBA0F76AD32} = {29584BEE-B872-409D-A086-7C96914C593A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3456D497-429C-49D8-803F-2B4ABDB8BBAB}
+	EndGlobalSection
+EndGlobal
